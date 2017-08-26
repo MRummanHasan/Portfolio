@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="boot.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fontawesome.css">
+
+	<!--nav collapse ky liay ye zaruri hy-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>	
+
+</style>
+</head>
+<body>
+
+	<!--nav bar acha wala banana hey-->
+<!--<div class="container-fluid navbar-fixed-top" style="background-color: purple; color: white"> 
+	<div class="row" style="margin-top: 10px">
+		<div class="col-md-2">
+			<h1 class="text-right" ><a href="#ABOUT" id="headerBar" style="color:white">Resume</a></h1>
+		</div>
+		<div class="col-md-2">
+			<h2 class=""></h2>
+		</div>
+		<div class="col-md-2">
+			<h2 class=""></h2>
+		</div>
+		<div class="col-md-6">
+			<div class="nav">
+			<center>
+				<a href="#ABOUT" class="button button1"><strong>ABOUT</strong></a>
+				<a href="#PRODUCT" class="button button1"><strong>PRODUCT</strong></a>
+				<a href="#EXPERIENCE" class="button button1"><strong>EXPERIENCE</strong></a>
+				<a href="#CONTACT" class="button button1"><strong>CONTACT</strong></a>
+					 <button class="button">Button</button> 
+			</center>
+			</div>
+		</div>
+	</div>
+</div>-->
+
+  <div class="container-fluid navbar-fixed-top navbar-inverse" style="background-color: purple; color: black">
+    <div class="navbar-header">
+      <button  type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <h1><a href="#ABOUT" style="color:white; margin-left: 10px"> Resume</a></h1>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+		<li><span><a href="#ABOUT" class="button button1"><strong>ABOUT</strong></a></span></li>
+        <li><span><a href="#PRODUCT" class="button button1"><strong>PRODUCT</strong></a></span></li>
+		<li><span><a href="#EXPERIENCE" class="button button1"><strong>EXPERIENCE</strong></a></span></li>
+		<li><span><a href="#CONTACT" class="button button1"><strong>CONTACT</strong></a></span></li>
+      </ul>
+    </div>
+  </div>
+
+<!-- ABOUT -->
+<div id="ABOUT" class="container">
+	<div class="intro" style="background-color: #aaa; color: white; margin-top:80px">
+	<div class="row">
+		<div class="col-sm-8" style="font-size:20px; margin-top: 30px; margin-left: 20px ; padding:60px;">
+			<p id="yourIntro" class="text-justify text-center"> </p>
+			<hr>
+			<h3>Front End Developer</h3>
+		</div>
+		<div class="col-sm-4" style="margin-top: 10px; margin-left: -50px; padding:60px;">
+				<img class="img-responsive img-circle" style="border: 5px solid #000" width="85%" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgkAAAAJDI0YTYzZmE0LTdhZGMtNGZkOC05MzBjLWEzNGI2ZTkxZjgzZg.jpg">
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- Product wala portion-->
+<div id="PRODUCT" class="container">
+	<div  style="background-color: #eee; color:gray;">
+		<div class="row" style="padding:40px">
+		<center>
+			<!--
+			1. col-sm-6 kay saath jou widths hain wo new class mey lagengi
+			2. projects ky link deny baaqi hain-->
+			<h2>PROJECTS</h2>
+			<div class="col-sm-6 " style="margin-top:50px; " >
+				<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="Color-Guessing-Game" width="400" /> </a>
+			</div>
+			<div class="col-sm-6 " style="margin-top:50px;" >
+				<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="" width="400" /> </a>
+			</div>
+		</center>
+		</div>
+		<!--<div class="row" style="padding:40px">
+		<center>
+			<div class="col-sm-6 container" >
+				<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="" width="400" /> </a>
+			</div>
+			<div class="col-sm-6 container" >
+				<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="" width="400" height="300"/> </a>
+			</div>
+			</center>
+		</div>
+		<div class="row" style="padding:40px">
+		<center>
+			<div class="col-sm-6 container">
+					<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="" width="400" height="200"/> </a>
+			</div>
+			<div class="col-sm-6 container" >
+				<a href="#"><img class="img-responsive" src="http://qlip.in/images/webmarqas.jpg" alt="" width="400" height="300"/> </a>
+			</div>
+		</center>
+		</div>-->
+	</div>
+</div>
+
+<div id="RESUME" class="container">
+	<div style="background-color:lightblue; color:darkslategrey;">
+		<div class="row" style="padding:40px">
+		<center>
+			<h2>EDUCATION</h2>
+			<br><br>
+				<div class="row" style="background-color:lightblue;">
+					<div class="col-sm-2">
+					</div>
+					<div class="col-sm-2">
+						<span class="glyphicon glyphicon-education " style="font-size:75px; color:black"></span>						
+					</div>
+					<div class="col-sm-7 ">
+						<h4><strong>PAF - KIET</strong></h4>
+						<h5>BS - Copmuter Science</h5>
+						<p>	Currently enrolled in 4th semester</p>
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+				<br>
+				<div class="row" style="background-color:lightblue;">
+					<div class="col-sm-2">
+					</div>
+					<div class="col-sm-2" >
+						<span class="glyphicon glyphicon-certificate" style="font-size:75px; color:black"></span>
+					</div>
+					<div class="col-sm-7" >
+						<h4 id="instituteName"><strong>Mass Training Institute</strong></h4>
+						<h5 id="certificateName">Full Stack Development</h5>
+						<p>	I majored in Pre-Engg with first division. </p>
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+				<br>
+				<div class="row" style="background-color:lightblue;">
+					<div class="col-sm-2">
+					</div>
+					<div class="col-sm-2">
+						<span class="fa fa-university" style="font-size:75px; color:black"></span>
+					</div>
+					<div class="col-sm-7">
+						<h4 id="matric"><strong>Happy Home School</strong></h4>
+						<h5>Matriculation - Science</h5>
+						<p>	Graduated with A grade with Medical-sciences as major. </p>
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+		</center>
+		</div>
+
+	</div>
+</div>
+
+<div id="EXPERIENCE" class="container">
+	<div style="background-color:lightcyan; color:black;">
+		<br>
+		<div class="row" style="padding:40px">
+		<h2 style="text-align:center">EXPERIENCE</h2>
+		<center>
+		<br>
+			<div class="col-xs-5 container">
+				<div style="text-align:right">
+					<h4>2016 - Present</h4>
+					<h5>Co - Founder</h5>
+				</div>
+			</div>
+			<div class="col-xs-1 container">
+				<i class="fa fa-circle" style="margin-top: 15px;"></i>
+			</div>
+			<div class="col-xs-6 container">
+				<div style="text-align: justify">
+					<h4>THE PODCAST REVOLUTION</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati fugit, iusto rerum quae commodi omnis aliquam distinctio sit voluptatibus debitis itaque explicabo vitae, beatae. Totam quibusdam optio vero ipsam.</p>
+				</div>
+			</div>
+		</center>
+		</div>
+
+		<div class="row" style="padding:40px">
+		<center>
+			<div class="col-xs-5 container">
+				<div style="text-align:right">
+					<h4>2016 - 2016</h4>
+					<h5>Marketing</h5>
+				</div>
+			</div>
+			<div class="col-xs-1 container">
+				<i class="fa fa-circle" style="margin-top: 15px;"></i>
+			</div>
+			<div class="col-xs-6 container">
+				<div style="text-align: justify">
+					<h4>TECHNIFIRE</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati fugit, iusto rerum quae commodi omnis aliquam distinctio sit voluptatibus debitis itaque explicabo vitae, beatae. Totam quibusdam optio vero ipsam.</p>
+				</div>
+			</div>
+		</center>
+		</div>
+
+		<div class="row" style="padding:40px">
+		<center>
+			<div class="col-xs-5 container">
+				<div style="text-align:right">
+					<h4>2015 - 2015</h4>
+					<h5>Internship</h5>
+				</div>
+			</div>
+			<div class="col-xs-1 container">
+				<i class="fa fa-circle" style="margin-top: 15px;"></i>
+			</div>
+			<div class="col-xs-6 container">
+				<div style="text-align: justify">
+					<h4>IT-Mechanix</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati fugit, iusto rerum quae commodi omnis aliquam distinctio sit voluptatibus debitis itaque explicabo vitae, beatae. Totam quibusdam optio vero ipsam.</p>
+				</div>
+			</div>
+		</center>
+		</div>
+		<br>
+
+	</div>
+</div>
+
+
+<div id="CONTACT" class="container">
+	<div class="" style="background-color: white; color:grey;">
+	<div class="row">
+	<br>
+		<center>
+			<h2>CONTACT ME</h2>
+		</center>
+
+		<div class="col-sm-6">
+			<form style="margin:60px; margin-top:20px; font-size:28px">
+			<br><br>
+			<input type="text" class="textbox" name="firstname" placeholder="First Name">
+			<br><br>
+			<input type="text" class="textbox" name="lastname" placeholder="Last Name">
+			<br><br>
+			<input type="number" class="textbox" name="PhoneNumber" placeholder="Phone">
+				<br><br>
+				<textarea type="text" class="textbox" placeholder="Message"></textarea>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+		<div class="col-sm-6">
+			<p style="padding:70px; margin-top:40px; font-size:20px;"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<br><br>
+			I promise to reply A.S.A.P.</strong></p>	
+		</div>
+	</div>
+	</div>
+</div>
+	<!-- link wala portion-->
+	<div class="container-fluid" style="background-color: darkgray; color:white">
+		<div class="row" style="padding:50px">
+			<center>
+				<div class="col-sm-6">
+				<h3><strong>ABOUT THIS PAGE</strong></h3>
+				<br>
+					<h4> Made with <span class="glyphicon glyphicon-education"></span> and <span class="glyphicon glyphicon-heart"></span>
+					<br>By  <a href="#">M Rumman</a>
+					</h4>
+				</div>
+
+				<div class="col-sm-6" >
+				<h3><strong>AROUND THE WORLD</strong></h3>
+				<br>
+					<p>
+					<a id="linkedIn" href="https://www.linkedin.com/in/mrummankhan"><img class="thin-white-border linkedLogo" ></a>
+					<a id="git" href="https://github.com/MRummanHasan"><img class="thin-white-border githubLogo" ></a>
+					<a id="twitter" href="https://twitter.com/rumman_m"><img class="thin-white-border twitterLogo"></a>
+					<a id="fb" href="https://www.flickr.com/photos/145862785@N07/"><img class="thin-white-border flickerLogo" ></a>
+					</p>
+				</div>
+			</center>
+		</div>
+	</div>
+
+
+<footer class="text-center container-fluid" style="height:70px; background-color:purple; font-size:20px; color:white">
+<h3><strong>MRummanKhan &copy; 2017. All Rights Reversed</strong></h3></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
