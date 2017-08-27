@@ -29,7 +29,7 @@ text-decoration: none;
 	background-size: contain;
   }
 .linkedLogo{
-    background-image: url(images/linkedin.jpg); }
+    background-image: url(images/linkedIn.jpg); }
 .linkedLogo:hover{
  	background-image: url(images/linkedInHover.jpg);
  }
