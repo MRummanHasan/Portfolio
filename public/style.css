@@ -29,24 +29,24 @@ text-decoration: none;
 	background-size: contain;
   }
 .linkedLogo{
-    background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/linked_in_online_social_media-128.png); }
+    background-image: url(images/linkedin.jpg); }
 .linkedLogo:hover{
- 	background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_linked_in-128.png);
+ 	background-image: url(images/linkedInHover.jpg);
  }
 .githubLogo{
-    background-image: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png); }
+    background-image: url(images/git.jpg); }
 .githubLogo:hover{
-	background-image: url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-128.png);
+	background-image: url(images/gitHover.jpg);
 }
 .twitterLogo{
- 	background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/twitter_online_social_media-128.png); }
+ 	background-image: url(images/twitter.jpg)}
 .twitterLogo:hover{
-	background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-128.png);
+	background-image: url(images/twitterHover.jpg);
 }
 .flickerLogo{
-    background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_flickr-128.png);}
+    background-image: url(images/flicker.jpg);}
 .flickerLogo:hover{
-	background-image: url(https://cdn2.iconfinder.com/data/icons/social-solid/512/Flickr-128.png);
+	background-image: url(images/flickerHover.jpg);
 }
 
 .inputBox{
@@ -66,6 +66,9 @@ text-decoration: none;
   }
 textarea{
 	resize: vertical;
+}
+.largeGlyph{
+    font-size:75px; color:black;
 }
 *{
     font-family: monospace;
